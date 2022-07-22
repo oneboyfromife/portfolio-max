@@ -151,6 +151,9 @@
       animation-timing-function: linear;
       animation-iteration-count: 1;
     }
+    .submit-btn{
+      outline: none;
+    }
     @keyframes button-push {
       50%
       {
