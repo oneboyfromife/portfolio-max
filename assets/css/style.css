@@ -153,6 +153,7 @@
     }
     .submit-btn{
       outline: none;
+      border: none;
     }
     @keyframes button-push {
       50%
@@ -278,7 +279,7 @@
       display: inline-block;
     }
     .home .intro .social-icons:not(:last-child){
-      margin-right: var(--m-1-5);
+      margin-right: var(--m-2);
     }
     .home .intro .social-icons a{
       font-size: var(--h3-font-size);
@@ -669,6 +670,9 @@
       transition: 0.3s;
       opacity: 0;
     }
+    .portfolio-item .more-button a{
+      color: #fff;
+    }
     .portfolio-item-inner:hover h3, .portfolio-item-inner:hover span{
       opacity: 1;
       transform: translateY(0);
@@ -792,6 +796,13 @@
     .blog-item .meta li:last-child::after{
       display: none;
     }
+    /*========== Podcast ==========*/
+    .audio-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
     /*========== Contact ==========*/
     .contact-box{
       flex: 0 0 40%;
@@ -825,6 +836,7 @@
       position: relative;
       height: 3rem;
       border-bottom: 2px solid var(--color-gray);
+      margin-bottom: var(--m-0-75);
     }
     .contact-content span{
       position: absolute;
@@ -854,7 +866,7 @@
     }
     .contact-label{
       position: absolute;
-      top: -0.20rem;
+      top: -0.2rem;
       width: 100%;
       font-size: var(--small-font-size);
       transition: .3s;
